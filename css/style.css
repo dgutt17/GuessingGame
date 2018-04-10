@@ -1,0 +1,60 @@
+.center {
+    text-align: center;
+  }
+  ul {
+      list-style: none;
+
+  }
+  img {
+      display: inline;
+      width: 200px;
+      height: 100px;
+  }
+  #footer {
+      width: 100%;
+      border-top: solid 2px black;
+      background-color: white;
+      position: fixed;
+      bottom: 0;
+  }
+
+  .guess {
+      display: inline;
+      padding: 0 25px;
+      font-size: 60px;
+      border: solid;
+      border-radius: 10px;
+      background-color: white;
+  }
+
+  #input-parent {
+      position: relative;
+      width: 150px;
+      margin: 5% auto 50px;
+  }
+  #player-input{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    font-size: 50px; 
+  }
+
+  #submit {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      position: absolute;
+      top: 110px;
+      left: 110px;
+  }
+
+body{
+    background-image: url('../img/1.jpg')
+}
+
+#app{
+    width: 60%;
+    margin: 50px auto;
+    background-color: rgba(256, 256, 256, 0.5)
+
+}
